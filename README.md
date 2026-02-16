@@ -19,6 +19,8 @@ Estima-se que 3–4 milhões de BTC (11–18% do supply total) foram **perdidos 
 
 **Herança Bitcoin** resolve esse problema.
 
+--
+
 It is estimated that 3–4 million BTC (11–18% of the total supply) are lost forever. Most bitcoiners lack a functional inheritance plan. When a holder dies, heirs—often non-technical—don't know that Bitcoin exists, where the keys are, or how to access the funds.
 
 **Herança Bitcoin** fixes this.
@@ -37,6 +39,8 @@ Um wizard interativo de 8 passos que mapeia seu setup, identifica pontos de falh
 6. **Documentos** — Cartas-instrução personalizadas por herdeiro (adapta linguagem ao nível técnico) + checklist de revisão semestral. Campos sensíveis em branco para preenchimento à caneta.
 7. **Fire Drill** — Simulação interativa do cenário de herança, passo a passo.
 8. **FAQ** — 10 perguntas frequentes sobre herança Bitcoin.
+
+--
 
 An interactive 8-step wizard that maps your setup, identifies failure points, and generates ready-to-use documents for your heirs.
 
@@ -59,6 +63,8 @@ An interactive 8-step wizard that maps your setup, identifies failure points, an
 - **Análise de output descriptor** — Explica por que, em multisig, sem o descriptor a redundância do quorum NÃO se aplica.
 - **Zero KYC, zero cadastro, zero tracking.**
 
+--
+
 - **100% client-side** — No data is sent to servers. Close the tab, lose everything (feature, not bug).
 - **Platform-agnostic** — Works with any wallet (Sparrow, Nunchuk, Electrum, etc.) and any hardware wallet.
 - **Bilingual** — Brazilian Portuguese and English, with instant toggle.
@@ -73,6 +79,8 @@ An interactive 8-step wizard that maps your setup, identifies failure points, an
 - Recomenda-se usar em **janela anônima** (sem extensões de navegador) ou desconectar a internet após carregar a página.
 - Os documentos gerados **NÃO devem ser salvos digitalmente**. Imprima e destrua qualquer cópia digital.
 
+--
+
 - No data is collected, transmitted, or stored.
 - Does not use `localStorage` or any browser persistence.
 - Sensitive fields in instruction letters are blank lines (__________) for manual filling by pen after printing.
@@ -86,6 +94,8 @@ An interactive 8-step wizard that maps your setup, identifies failure points, an
 - CSS-in-JS (inline styles)
 - IBM Plex Mono + IBM Plex Sans (Google Fonts)
 
+--
+
 - React (single-file component)
 - Zero external dependencies other than React
 - CSS-in-JS (inline styles)
@@ -96,6 +106,8 @@ An interactive 8-step wizard that maps your setup, identifies failure points, an
 ### Opção 1: Online (recomendado para teste) // Option 1: Online (recommended for testing)
 
 Acesse a versão hospedada em: https://herancabitcoin.github.io/heranca-bitcoin/
+
+--
 
 Access the hosted version at: https://herancabitcoin.github.io/heranca-bitcoin/
 
@@ -109,6 +121,8 @@ git clone https://github.com/herancabitcoin/heranca-bitcoin.git
 # Pode ser usado em qualquer ambiente React ou importado em um projeto existente
 ```
 
+--
+
 ```bash
 # Clone the repository
 git clone https://github.com/herancabitcoin/heranca-bitcoin.git
@@ -120,6 +134,8 @@ git clone https://github.com/herancabitcoin/heranca-bitcoin.git
 ### Opção 3: Artifact do Claude // Option 3: Claude Artifact
 
 O arquivo `.jsx` pode ser colado diretamente como artifact no [claude.ai](https://claude.ai) para execução imediata.
+
+--
 
 The .jsx file can be pasted directly as an artifact into [claude.ai](https://claude.ai) for immediate execution.
 
@@ -133,6 +149,8 @@ Contribuições são bem-vindas. Áreas prioritárias:
 - **Testes** — Cobertura de testes para a lógica de cenários
 - **UI/UX** — Melhorias de acessibilidade e responsividade mobile
 
+--
+
 Contributions are welcome. Priority areas:
 
 - **Client-side PDF generation** — Implement export via jsPDF/html2canvas
@@ -144,6 +162,8 @@ Contributions are welcome. Priority areas:
 ## Apoie o projeto // Support the project
 
 Esta ferramenta é 100% gratuita. Se ela te ajudou a proteger seus bitcoins, considere contribuir:
+
+--
 
 This tool is 100% free. If it helped you secure your bitcoins, consider contributing:
 
