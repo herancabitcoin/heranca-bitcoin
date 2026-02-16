@@ -9,6 +9,8 @@
 
 **Ferramenta gratuita e open-source de planejamento de herança para Bitcoin.**
 
+--
+
 **Free and open-source Bitcoin inheritance planning tool.**
 
 ---
@@ -162,6 +164,8 @@ Contributions are welcome. Priority areas:
 ## Apoie o projeto // Support the project
 
 Esta ferramenta é 100% gratuita. Se ela te ajudou a proteger seus bitcoins, considere contribuir:
+
+⚡ **Lightning:** `expresstask226@walletofsatoshi.com`
 
 --
 
