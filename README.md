@@ -5,23 +5,29 @@
   <img src="https://img.shields.io/badge/PT--BR%20%7C%20EN-Bilingual-3b82f6?style=for-the-badge" alt="Bilingual" />
 </p>
 
-# ₿ Herança Bitcoin
+# ₿ Herança Bitcoin // ₿ Bitcoin Inheritance
 
 **Ferramenta gratuita e open-source de planejamento de herança para Bitcoin.**
 
-*Free and open-source Bitcoin inheritance planning tool.*
+**Free and open-source Bitcoin inheritance planning tool.**
 
 ---
 
-## O Problema
+## O Problema // The Problem
 
 Estima-se que 3–4 milhões de BTC (11–18% do supply total) foram **perdidos para sempre**. A maioria dos bitcoiners não tem um plano funcional de herança. Quando o detentor morre, os herdeiros — muitas vezes leigos — não sabem que o Bitcoin existe, onde estão as chaves, ou como acessar os fundos.
 
+It is estimated that 3–4 million BTC (11–18% of the total supply) are lost forever. Most bitcoiners lack a functional inheritance plan. When a holder dies, heirs—often non-technical—don't know that Bitcoin exists, where the keys are, or how to access the funds.
+
 **Herança Bitcoin** resolve esse problema.
 
-## O que a ferramenta faz
+**Herança Bitcoin** fixes this.
+
+## O que a ferramenta faz // What this tool does
 
 Um wizard interativo de 8 passos que mapeia seu setup, identifica pontos de falha, e gera documentos prontos para seus herdeiros.
+
+An interactive 8-step wizard that maps your setup, identifies failure points, and generates ready-to-use documents for your heirs.
 
 ### Wizard
 
@@ -34,6 +40,17 @@ Um wizard interativo de 8 passos que mapeia seu setup, identifica pontos de falh
 7. **Fire Drill** — Simulação interativa do cenário de herança, passo a passo.
 8. **FAQ** — 10 perguntas frequentes sobre herança Bitcoin.
 
+### Wizard
+
+1. **Custody** — Singlesig, multisig, or collaborative custody. Quorum configuration, passphrase, software wallets, and hardware wallets.
+2. **Assets** — BTC amount range, UTXOs, seed locations, output descriptor backup.
+3. **Heirs** — Name, relationship, Bitcoin technical level, location.
+4. **Failure Scenarios** — Automatic scenario analysis based on your setup: lost seed, undocumented passphrase, missing descriptor, wrench attack, offline provider, uninformed heir.
+5. **Action Plan** — Prioritized concrete actions (CRITICAL → ESSENTIAL → MAINTENANCE).
+6. **Documents** — Customized instruction letters per heir (adapts language to technical level) + biannual review checklist. Sensitive fields left blank for pen filling.
+7. **Fire Drill** — Interactive, step-by-step inheritance scenario simulation.
+8. **FAQ** — 10 common questions about Bitcoin inheritance.
+
 ### Diferenciais
 
 - **100% client-side** — Nenhum dado é enviado a servidores. Fechou a aba, perdeu tudo (feature, not bug).
@@ -42,7 +59,14 @@ Um wizard interativo de 8 passos que mapeia seu setup, identifica pontos de falh
 - **Análise de output descriptor** — Explica por que, em multisig, sem o descriptor a redundância do quorum NÃO se aplica.
 - **Zero KYC, zero cadastro, zero tracking.**
 
-## Segurança
+### Key Features
+- **100% client-side** — No data is sent to servers. Close the tab, lose everything (feature, not bug).
+- **Platform-agnostic** — Works with any wallet (Sparrow, Nunchuk, Electrum, etc.) and any hardware wallet.
+- **Bilingual** — Brazilian Portuguese and English, with instant toggle.
+- **Output descriptor analysis** — Explains why, in multisig, without the descriptor the quorum redundancy does NOT apply.
+- **Zero** KYC, zero sign-up, zero tracking.
+
+## Segurança // Security
 
 - Nenhum dado é coletado, transmitido ou armazenado.
 - Não usa `localStorage` nem qualquer persistência no navegador.
@@ -50,20 +74,33 @@ Um wizard interativo de 8 passos que mapeia seu setup, identifica pontos de falh
 - Recomenda-se usar em **janela anônima** (sem extensões de navegador) ou desconectar a internet após carregar a página.
 - Os documentos gerados **NÃO devem ser salvos digitalmente**. Imprima e destrua qualquer cópia digital.
 
-## Stack
+- No data is collected, transmitted, or stored.
+- Does not use `localStorage` or any browser persistence.
+- Sensitive fields in instruction letters are blank lines (__________) for manual filling by pen after printing.
+- Recommended usage: Incognito window (no browser extensions) or disconnect internet after loading the page.
+- Generated documents must NOT be saved digitally. Print and destroy any digital copy.
+
+## Stack // Stack
 
 - React (single-file component)
 - Zero dependências externas além do React
 - CSS-in-JS (inline styles)
 - IBM Plex Mono + IBM Plex Sans (Google Fonts)
 
-## Como usar
+- React (single-file component)
+- Zero external dependencies other than React
+- CSS-in-JS (inline styles)
+- IBM Plex Mono + IBM Plex Sans (Google Fonts)
 
-### Opção 1: Online (recomendado para teste)
+## Como usar // How to use
 
-Acesse a versão hospedada em: *[em breve]*
+### Opção 1: Online (recomendado para teste) // Option 1: Online (recommended for testing)
 
-### Opção 2: Localmente
+Acesse a versão hospedada em: https://herancabitcoin.github.io/heranca-bitcoin/
+
+Access the hosted version at: https://herancabitcoin.github.io/heranca-bitcoin/
+
+### Opção 2: Localmente // Option 2: Locally
 
 ```bash
 # Clone o repositório
@@ -73,11 +110,21 @@ git clone https://github.com/herancabitcoin/heranca-bitcoin.git
 # Pode ser usado em qualquer ambiente React ou importado em um projeto existente
 ```
 
-### Opção 3: Artifact do Claude
+```bash
+# Clone the repository
+git clone https://github.com/herancabitcoin/heranca-bitcoin.git
+
+# The main file is bitcoin-heranca-v2.jsx
+# Can be used in any React environment or imported into an existing project
+```
+
+### Opção 3: Artifact do Claude // Option 3: Claude Artifact
 
 O arquivo `.jsx` pode ser colado diretamente como artifact no [claude.ai](https://claude.ai) para execução imediata.
 
-## Contribuindo
+The .jsx file can be pasted directly as an artifact into claude.ai for immediate execution.
+
+## Contribuindo // Contributing
 
 Contribuições são bem-vindas. Áreas prioritárias:
 
@@ -87,19 +134,29 @@ Contribuições são bem-vindas. Áreas prioritárias:
 - **Testes** — Cobertura de testes para a lógica de cenários
 - **UI/UX** — Melhorias de acessibilidade e responsividade mobile
 
-## Apoie o projeto
+Contributions are welcome. Priority areas:
+
+- **Client-side PDF generation** — Implement export via jsPDF/html2canvas
+- **New translations** — Spanish, French, German
+- **New failure scenarios** — Timelocks, dead man's switch, social recovery
+- **Tests** — Test coverage for scenario logic
+- **UI/UX** — Accessibility improvements and mobile responsiveness
+
+## Apoie o projeto // Support the project
 
 Esta ferramenta é 100% gratuita. Se ela te ajudou a proteger seus bitcoins, considere contribuir:
 
+This tool is 100% free. If it helped you secure your bitcoins, consider contributing:
+
 ⚡ **Lightning:** `expresstask226@walletofsatoshi.com`
 
-## Acompanhe
+## Acompanhe // Follow
 
 - [YouTube](https://youtube.com/@herancabitcoin)
 - [X (Twitter)](https://x.com/herancabitcoin)
 - [Nostr](https://njump.me/npub1mstrwvvw2046l758rtnvy0pwe22k9ngznsf0t6twll2gas0rt3jsejeju6)
 
-## Licença
+## Licença //Licence
 
 MIT License — use, modifique e distribua livremente.
 
