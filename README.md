@@ -139,7 +139,7 @@ O arquivo `.jsx` pode ser colado diretamente como artifact no [claude.ai](https:
 
 --
 
-The .jsx file can be pasted directly as an artifact into [claude.ai](https://claude.ai) for immediate execution.
+The `.jsx` file can be pasted directly as an artifact into [claude.ai](https://claude.ai) for immediate execution.
 
 ## Contribuindo // Contributing
 
@@ -182,6 +182,10 @@ This tool is 100% free. If it helped you secure your bitcoins, consider contribu
 ## Licença // Licence
 
 MIT License — use, modifique e distribua livremente.
+
+--
+
+MIT License — use, modify, and distribute freely.
 
 ```
 MIT License
